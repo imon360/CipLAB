@@ -1,0 +1,126 @@
+/*===================
+START STYLE
+Name : CipLAB
+Athour : Imon Hasan;
+EMAIL : bsih360gmail.com
+Website: https://imonhasan.com
+Copyrignt 2020
+======================*/
+body {
+  background: #333;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+/*===================
+NAV SECTION
+======================*/
+.navbar {
+  border-bottom: 3px solid #00aaff;
+  background: #292b2c;
+  opacity: 0.7;
+}
+
+/*===================
+HEADER SECTION
+======================*/
+#home-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000b0), to(#000000b0)), url("../images/header.jpg") center top;
+  background: linear-gradient(#000000b0, #000000b0), url("../images/header.jpg") center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-section .fa {
+  color: #00aaff;
+  background: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+#home-section .card-form {
+  opacity: 0.9;
+}
+
+#home-section .home-inner {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  #home-section h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 500px) {
+  .display-none {
+    display: none;
+  }
+}
+
+/*===================
+EXPLORE SECTION
+======================*/
+#explore-main-section .fa {
+  color: #00aaff;
+  background: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+/*===================
+CREATE SECTION
+======================*/
+#crteate-main-section .fa {
+  background: #fff;
+  color: #333;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+/*===================
+SHARE SECTION
+======================*/
+#share-main-section .fa {
+  background: #333;
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1199px) {
+  #share-main-section #flex-r {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1199px) {
+  #share-main-section .align-self-start {
+    padding-top: 1px !important;
+  }
+  #share-main-section .align-self-end {
+    padding-top: 1px !important;
+  }
+}
+
+/*===================
+FOOTER SECTION
+======================*/
+/*# sourceMappingURL=style.css.map */

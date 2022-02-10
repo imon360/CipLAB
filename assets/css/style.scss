@@ -1,0 +1,148 @@
+$body-bg: #333;
+$font-color: #fff;
+$primary-color: #00aaff;
+$icon-font-size: 25px;
+
+/*===================
+START STYLE
+Name : CipLAB
+Athour : Imon Hasan;
+EMAIL : bsih360gmail.com
+Website: https://imonhasan.com
+Copyrignt 2020
+======================*/
+
+body {
+    background: $body-bg;
+    color: $font-color;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*===================
+NAV SECTION
+======================*/
+
+.navbar {
+    border-bottom: 3px solid $primary-color;
+    background: #292b2c;
+    opacity: 0.7;
+}
+
+
+/*===================
+HEADER SECTION
+======================*/
+
+#home-section {
+    background: linear-gradient(#000000b0, #000000b0), url('../images/header.jpg') center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 3px;
+        border-radius: 3px;
+        font-size: $icon-font-size;
+        margin-top: 5px;
+    }
+    .card-form {
+        opacity: 0.9;
+    }
+    .home-inner {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #home-section h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    #home-section h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+    .display-none {
+        display: none;
+    }
+}
+
+
+/*===================
+EXPLORE SECTION
+======================*/
+
+#explore-main-section {
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 3px;
+        border-radius: 3px;
+        font-size: $icon-font-size;
+        margin-top: 5px;
+    }
+}
+
+
+/*===================
+CREATE SECTION
+======================*/
+
+#crteate-main-section {
+    .fa {
+        background: #fff;
+        color: #333;
+        padding: 3px;
+        border-radius: 3px;
+        font-size: $icon-font-size;
+    }
+}
+
+
+/*===================
+SHARE SECTION
+======================*/
+
+#share-main-section {
+    .fa {
+        background: #333;
+        color: #fff;
+        padding: 3px;
+        border-radius: 3px;
+        font-size: $icon-font-size;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    #share-main-section {
+        #flex-r {
+            display: none !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    #share-main-section {
+        .align-self-start {
+            padding-top: 1px !important;
+        }
+        .align-self-end {
+            padding-top: 1px !important;
+        }
+    }
+}
+
+
+/*===================
+FOOTER SECTION
+======================*/
